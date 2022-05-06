@@ -11,6 +11,8 @@
 		2357980B28259ABF00F57B28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357980A28259ABF00F57B28 /* ContentView.swift */; };
 		2357980D28259AC300F57B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2357980C28259AC300F57B28 /* Assets.xcassets */; };
 		2357981028259AC300F57B28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2357980F28259AC300F57B28 /* Preview Assets.xcassets */; };
+		2357981728259CCA00F57B28 /* LocationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357981628259CCA00F57B28 /* LocationRowView.swift */; };
+		2357981928259DC500F57B28 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357981828259DC500F57B28 /* LocationSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2357980A28259ABF00F57B28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2357980C28259AC300F57B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2357980F28259AC300F57B28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2357981628259CCA00F57B28 /* LocationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRowView.swift; sourceTree = "<group>"; };
+		2357981828259DC500F57B28 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				2357980A28259ABF00F57B28 /* ContentView.swift */,
 				2357980C28259AC300F57B28 /* Assets.xcassets */,
 				2357980E28259AC300F57B28 /* Preview Content */,
+				2357981628259CCA00F57B28 /* LocationRowView.swift */,
+				2357981828259DC500F57B28 /* LocationSearchViewModel.swift */,
 			);
 			path = VedangLocationSearch;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2357981728259CCA00F57B28 /* LocationRowView.swift in Sources */,
 				2357980B28259ABF00F57B28 /* ContentView.swift in Sources */,
 				2357980928259ABF00F57B28 /* VedangLocationSearchApp.swift in Sources */,
+				2357981928259DC500F57B28 /* LocationSearchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
